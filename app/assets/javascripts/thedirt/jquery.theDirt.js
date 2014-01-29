@@ -10,7 +10,6 @@
  *
  */
 
-(function( $ ) {
 	/**
 	 *  @example
 	 *    // Basic initialisation
@@ -24,30 +23,31 @@
 	 *      $('#example').theDirt( {"color": 'green'} );
 	 *    } );
 	 */
-	var TheDirt = function( options ){
-		console.log("Print a bunch of shit")
-		console.log("Print a bunch of shit")
-		console.log("Print a bunch of shit")
-		console.log("Print a bunch of shit")
-		console.log("Print a bunch of shit")
-		console.log("Print a bunch of shit")
-		console.log("Print a bunch of shit")
-		console.log("Print a bunch of shit")
-		debugger
-	};
+var TheDirt = function( options ){
+	console.log("Print a bunch of shit")
+	console.log("Print a bunch of shit")
+	console.log("Print a bunch of shit")
+	console.log("Print a bunch of shit")
+	console.log("Print a bunch of shit")
+	console.log("Print a bunch of shit")
+	console.log("Print a bunch of shit")
+	console.log("Print a bunch of shit")
+	debugger
+};
 
-	TheDirt.runner = function( options ){
-		console.log("Start the runner")
-		console.log("Start the runner")
-		console.log("Start the runner")
-		console.log("Start the runner")
-		console.log("Start the runner")
-		debugger
-	};
-	TheDirt.version = "0.0.1";
-	// jQuery aliases
-	$.fn.TheDirt = TheDirt;
-	$.fn.theDirt = TheDirt;
-	$.fn.theDirtSettings = TheDirt.settings;
-
-})(window, document)
+TheDirt.runner = function( options ){
+	console.log("Start the runner")
+	console.log("Start the runner")
+	console.log("Start the runner")
+	console.log("Start the runner")
+	console.log("Start the runner")
+	debugger
+};
+TheDirt.settings = {
+	"thing": "thing"
+}
+TheDirt.version = "0.0.1";
+// jQuery aliases
+$.fn.TheDirt = TheDirt;
+$.fn.theDirt = TheDirt;
+$.fn.theDirtSettings = TheDirt.settings;
