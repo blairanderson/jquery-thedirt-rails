@@ -20,6 +20,15 @@ The current gem is released without updated plugins. If you encounter any errors
 
 1. Initialize your thedirt:
 
-        ```javascript
-        $('form#new_message').theDirt({'color': 'blue'});
+        ```html
+          <form>
+            <textarea name="job_description"></textarea>
+            <input type="submit" value="Submit"/>
+          </form>
+
+          <script type="text/javascript">
+            $(function(){
+              $('form').TheDirt()
+            })
+          </script>
         ```
