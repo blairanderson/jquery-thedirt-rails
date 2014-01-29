@@ -15,12 +15,11 @@ The current gem is released without updated plugins. If you encounter any errors
         bundle install
 
 1. Add the JavaScript to `application.js`:
-
+        //= require jquery
         //= require thedirt/jquery.theDirt
 
 1. Initialize your thedirt:
 
-```javascript
-$('form#new_message').theDirt({'color': 'blue'});
-```
-
+        ```javascript
+        $('form#new_message').theDirt({'color': 'blue'});
+        ```

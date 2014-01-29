@@ -27,7 +27,7 @@ $(function(){
 	var TheDirt = function( options ){
 		$el = $(this);
 
-		$el.data("remote", true)
+		$el.attr('data-remote', true)
 		debugger
 
 		// form error
