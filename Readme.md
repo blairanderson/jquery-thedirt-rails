@@ -19,7 +19,7 @@ The current gem is released without updated plugins. If you encounter any errors
       	//= require jquery
       	//= require thedirt/jquery.theDirt
 
-1. Initialize your thedirt:
+1. Initialize your Dirt:
 
 	      <form>
 	        <textarea name="job_description"></textarea>
