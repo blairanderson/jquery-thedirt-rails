@@ -29,7 +29,6 @@
 	}
 }
 (function( $ ) {
-	"use strict";
 	/**
 	 *  @example
 	 *    // Basic initialisation
@@ -69,4 +68,4 @@
 	$.fn.theDirt = TheDirt;
 	$.fn.theDirtSettings = TheDirt.settings;
 
-}(window, document));
+}(window, document))

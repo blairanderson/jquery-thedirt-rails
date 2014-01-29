@@ -16,7 +16,7 @@ The current gem is released without updated plugins. If you encounter any errors
 
 1. Add the JavaScript to `application.js`:
 
-        //= require theDirt/jquery.theDirt
+        //= require thedirt/jquery.theDirt
 
 1. Initialize your thedirt:
 
