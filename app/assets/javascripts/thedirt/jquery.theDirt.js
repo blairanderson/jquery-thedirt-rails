@@ -26,6 +26,8 @@
 $(function(){
 	var TheDirt = function( options ){
 		$el = $(this);
+
+		$el.data("remote", true)
 		debugger
 
 		// form error
@@ -49,7 +51,7 @@ $(function(){
 
 		// store a copy of the current content
 	  var $textfields = $('textarea');
-	  
+
 	  for (var i = $textfields.length - 1; i >= 0; i--) {
 	    var $textarea = $( $textfields[i] );
 	    $textarea.attr('data-start', $textarea.val() );
